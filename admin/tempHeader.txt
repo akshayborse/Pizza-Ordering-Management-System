@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Pizza Box</title>
+
+	<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+<style type="text/css">
+ 
+.menu_link {
+    float: left;
+}
+
+  .menu_link a:hover{
+    color: black;
+}
+
+.menu_link a:active {
+  transform: translateY(4px);
+}
+
+</style>
+
+
+</head>
+
+
+
+</head>
+<body>
+	<center>
+
+<div style="width: 80%;"> 
+  <ul class="above_menu">
+    <li style="float: left;"><img src="../logo.jpg"></li>
+    <li style="float: right;"><h1><a class="active"  href="#logout">Logout</a></h1></li>
+  </ul>
+</div>
+
+
+<div style="width: 80%; font-size: 10px">
+  <ul class="menu">
+        <li class="menu_link"><h1><a class="active"href="#">Add Pizza</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Update Pizza</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">View Pizza</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Delete Pizza</a></h1></li>
+  </ul>
+  <ul class="menu">
+        <li class="menu_link"><h1><a class="active"href="#">Add Toppings</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Update Toppings</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">View Toppings</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Delete Toppings</a></h1></li>
+  </ul>
+  <ul class="menu">
+        <li class="menu_link"><h1><a class="active"href="#">Add Package</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Update Package</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">View Package</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Delete Package</a></h1></li>
+  </ul>
+  <ul class="menu">
+        <li class="menu_link"><h1><a class="active"href="#">Add Extra</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Update Extra</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">View Extra</a></h1></li>
+        <li class="menu_link"><h1><a class="active"href="#">Delete Extra</a></h1></li>
+    </ul>
+    </div>
+
+
+</center>
+</body>
+</html>
